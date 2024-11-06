@@ -6,12 +6,17 @@ import Image from '../components/Image'
 import AboutImg from '../assets/AboutImg.png'
 import MarketPlace from '../assets/MarketPlace.png'
 import CallAlt from '../assets/call-alt.png'
+import Package from '../assets/package.png'
+import Medal from '../assets/medal.png'
+import Bag from '../assets/bag.png'
+import Design1 from '../assets/Design1.png'
 
 const About = () => {
     return (
-        <section className='py-[120px] bg-white'>
+        <section className=' relative py-120 bg-white'>
+            <div className='hidden lg:block absolute top-60 -right-36'><Image src={Design1}/></div>
             <Container>
-                <Flex className='gap-x-20'>
+                <Flex className='gap-x-20 pb-16'>
                     <div className='w-6/12 h-[460px] relative'>
                         <Image className='w-full' src={AboutImg} />
                         <Image className='absolute top-7 left-7' src={MarketPlace} />
@@ -37,6 +42,30 @@ const About = () => {
                         </Flex>
 
                     </div>
+                </Flex>
+
+                <Flex>
+                    <Flex className='w-4/12 items-center gap-x-4'>
+                        <div className='p-6 bg-white  rounded-full shadow-xl'><Image src={Package} /></div>
+                        <div>
+                            <h2 className='uppercase font-Bebas font-bold text-xl text-Black pb-0.5'>fast delivery</h2>
+                            <p className='font-Inter font-normal text-xl text-Black'>Within 30 minutes</p>
+                        </div>
+                    </Flex>
+                    <Flex className='w-4/12 items-center gap-x-4'>
+                        <div className='p-6 bg-white  rounded-full shadow-xl'><Image src={Medal} /></div>
+                        <div>
+                            <h2 className='uppercase font-Bebas font-bold text-xl text-Black pb-0.5'>absolute dining</h2>
+                            <p className='font-Inter font-normal text-xl text-Black'>Best buffet restaurant</p>
+                        </div>
+                    </Flex>
+                    <Flex className='w-4/12 items-center gap-x-4'>
+                        <div className='p-6 bg-white  rounded-full shadow-xl'><Image src={Bag} /></div>
+                        <div>
+                            <h2 className='uppercase font-Bebas font-bold text-xl text-Black pb-0.5'>pickup delivery</h2>
+                            <p className='font-Inter font-normal text-xl text-Black'>Grab your food order</p>
+                        </div>
+                    </Flex>
                 </Flex>
 
             </Container>
