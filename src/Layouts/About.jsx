@@ -14,7 +14,7 @@ import Design1 from '../assets/Design1.png'
 const About = () => {
     return (
         <section className=' relative py-120'>
-            <div className='hidden lg:block absolute top-60 -right-36 -z-30'><Image src={Design1}/></div>
+            {/* <div className='hidden lg:block absolute top-60 -right-36'><Image src={Design1}/></div> */}
             <Container>
                 <Flex className='gap-x-20 pb-16'>
                     <div className='w-6/12 h-[460px] relative'>
