@@ -14,8 +14,9 @@ import Design5 from '../assets/Design5.png'
 const Testimonial = () => {
     return (
         <section className='py-120 relative'>
-            {/* <div className='absolute top-40 -left-48 '><Image src={Design3}/></div> */}
-            {/* <div className='absolute bottom-1 -right-48 hidden lg:block'><Image src={Design4}/></div> */}
+            <div className='hidden lg:block absolute top-40 -left-48'><Image src={Design3}/></div>
+            <div className='hidden lg:block absolute bottom-10 left-[73%] -z-20'><Image src={Design4}/></div>
+            
             <Container>
                 <Flex className='justify-between items-center pb-14'>
                     <div>
