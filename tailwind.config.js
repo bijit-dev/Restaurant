@@ -12,6 +12,7 @@ export default {
         'Roboto': ['Roboto'],
         'Bebas': ['Bebas Neue'],
         'Inter': ['Inter'],
+        'Montserrat': ['Montserrat'],
       },
 
       fontSize: {
@@ -30,6 +31,10 @@ export default {
         '480': '480px',
         '259': '259px',
         '120': '120px',
+        '110': '110px',
+        '85': '85px',
+
+
         
         '19': '19rem',
       },
@@ -44,11 +49,15 @@ export default {
         'r3': '#8E1B0F',
         'Yello': '#FEBF00',
         'Gray': '#333333',
+        'Wb': '#E5E7EB',
+        'White': '#F7F8F9',
         
       },
 
       backgroundImage: {
-        'banner': "url('../src/assets/bannerBg.png')",
+        'bannerBg': "url('../src/assets/bannerBg.png')",
+        'ContactBg': "url('../src/assets/Contact.jpeg')",
+        'FooterBg': "url('../src/assets/Footer.jpeg')",
       }
     },
   },

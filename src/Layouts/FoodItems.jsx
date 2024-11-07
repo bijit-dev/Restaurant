@@ -19,8 +19,8 @@ const FoodItems = () => {
                 <Flex className='justify-between items-center pb-14'>
                     <div>
                         <p className='text-r1 flex items-center gap-1 font-Roboto font-bold text-xl
-                        '><FaSquareFull className='text-xs'/> <span> Crispy, Every Bite Taste </span></p>
-                        <h1 className='font-Bebas font-bold text-62f text-Black'>POPULAR FOOD ITEMS</h1>
+                        '><FaSquareFull className='text-xs'/>Crispy, Every Bite Taste</p>
+                        <h1 className='font-Bebas font-bold text-62f text-Black pt-4'>POPULAR FOOD ITEMS</h1>
                     </div>
                     <Flex className='gap-x-8 '>
                         <div className='bg-white p-6 rounded-full shadow-xl hover:text-r1'>
