@@ -8,9 +8,9 @@ import Vector from '../assets/Vector.png'
 
 const Banner = () => {
     return (
-        <section className='bg-gradient-to-r from-r1 from-28% via-r2 via-60% to-r3 to-100%'>
+        <section className='bg-gradient-to-r from-r1 from-28% via-r2 via-60% to-r3 to-100% px-7 lg:px-0'>
             <Container className='relative'>
-                <h1 className='w-840 font-Bebas font-bold uppercase text-white text-68f bg-gradient-to-r from-r1/0 to-r1/70 absolute top-19 left-0 z-20'>Taste the authentic Saudi cuisine</h1>
+                <h1 className='lg:w-840 font-Bebas font-bold uppercase text-white text-68f lg:bg-gradient-to-r from-r1/0 to-r1/70 lg:absolute lg:top-19 lg:left-0 lg:z-20'>Taste the authentic Saudi cuisine</h1>
                 <p className='w-480 font-Roboto font-normal text-white text-2xl pt-522 pb-9'>Among the best Saudi chefs in the world, serving you something beyond flavor. </p>
                 <Button className='mb-259' text='Explore Menu' />
                 
