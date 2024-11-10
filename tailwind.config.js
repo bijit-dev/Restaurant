@@ -16,6 +16,7 @@ export default {
       },
 
       fontSize: {
+        '21f': '21.6px',
         '28f': '28.44px',
         '34f': '34px',
         '68f': '68px',
@@ -23,20 +24,29 @@ export default {
       },
 
       spacing: {
-        '840': '840px',
+        '830': '830px',
         '700': '700px',
         '649': '649px',
         '624': '624px',
+        '559': '559px',
         '522': '522px',
-        '480': '480px',
         '259': '259px',
+        '254': '254px',
         '120': '120px',
         '110': '110px',
         '85': '85px',
-
-
+        '38': '38px',
         
-        '18': '18rem',
+        '130w': '130px',
+        '105w': '105.66px',
+        '72w': '72px',
+        '69w': '69px',
+        '30w': '30px',
+      },
+
+      lineHeight: {
+        '130L': '130px',
+        '56L': '56px',
       },
       
       maxWidth: {
@@ -55,7 +65,6 @@ export default {
       },
 
       backgroundImage: {
-        
         'ContactBg': "url('../src/assets/Contact.jpeg')",
         'FooterBg': "url('../src/assets/Footer.jpeg')",
       }

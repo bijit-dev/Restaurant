@@ -3,7 +3,7 @@
 @tailwind components;
 @tailwind utilities;
 
-#Navbg{
+.Navbg{
     background-image: url(../src/assets/bannerBg.png);
     background-color: #bf2018;
 }

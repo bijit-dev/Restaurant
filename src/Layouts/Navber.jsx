@@ -14,7 +14,7 @@ const Navber = () => {
     let handleClick=()=>{
         setshow(!show)
     }
-    let navlist = <div id='Navbg' className='bg-gradient-to-r from-r1 from-28% via-r2 via-60% to-r3 to-100% w-full absolute top-20 left-0 z-10'>
+    let navlist = <div className='Navbg bg-gradient-to-r from-r1 from-28% via-r2 via-60% to-r3 to-100% w-full absolute top-20 left-0 z-10'>
         <ul className='text-center text-lg text-white font-medium font-pop p-2'>
             <li className='p-2'>Home</li>
             <li className='p-2'>About</li>
@@ -26,7 +26,7 @@ const Navber = () => {
         <div className="py-6 text-center"><Button className='!py-2.5' text='Book a table'/></div>
         </div>
     return (
-        <section id='Navbg' className='lg:sticky top-0 z-50 bg-transparent px-7 lg:px-0' >
+        <section className='Navbg sticky top-0 z-50 bg-transparent px-7 lg:px-0' >
             {show && navlist}
             <Container className='relative'>
                 <Flex className='items-center'>
@@ -44,7 +44,7 @@ const Navber = () => {
                             <li>Contact</li>
                         </ul>
                     </div>
-                    <div className="hidden lg:block w-2/12 text-end py-6"><Button className='!py-2.5' text='Book a table'/> </div>
+                    <div className="hidden lg:block w-2/12 text-end py-6"><Button className='!py-2.5 !text-base' text='Book a table'/> </div>
                 </Flex>
                 <div onClick={handleClick} className='lg:hidden text-white text-3xl absolute top-[34px] right-[16px] z-20'>
                     {
