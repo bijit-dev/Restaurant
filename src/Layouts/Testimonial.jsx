@@ -1,17 +1,21 @@
-import React from 'react'
+import React, { useState } from 'react'
 import Container from '../components/Container'
 import Flex from '../components/Flex'
 import Image from '../components/Image'
-import { FaSquareFull } from 'react-icons/fa'
-import { FaChevronLeft, FaChevronRight } from "react-icons/fa6";
+import { FaPlay, FaSquareFull } from 'react-icons/fa'
+import { FaChevronLeft, FaChevronRight, FaPause } from "react-icons/fa6";
 import Men from '../assets/Men.png'
-import Video from '../assets/Video.png'
 import Design from '../assets/Design.png'
 import Design3 from '../assets/Design3.png'
 import Design4 from '../assets/Design4.png'
 import Design5 from '../assets/Design5.png'
 
 const Testimonial = () => {
+    let [show,setshow]=useState(true)
+
+    let handleClick=()=>{
+        setshow(!show)
+    }
     return (
         <section className='py-120 relative'>
             <div className='hidden lg:block absolute top-40 -left-48'><Image src={Design3}/></div>
@@ -33,8 +37,21 @@ const Testimonial = () => {
                         </div>
                     </Flex>
                 </Flex>
-                <Flex>
-                    <div className='w-5/12 bg-Yello py-85 pl-110 pr-85 relative'>
+                <Flex className='lg:flex-row-reverse'>
+                    <div className='lg:w-7/12 relative'>
+                        {/* <video width="100%" height="120%" autoplay controls src={FoodVideo}></video> */}
+                        {/* <video src="https://youtu.be/kRCH8kD1GD0?si=9SJIb5UxrzLvKdWD"></video> */}
+
+                        <iframe className='w-full h-full' src="https://www.youtube.com/embed/kRCH8kD1GD0?si=kXY4wVXDWDj2Cy_I&amp;start=4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                        {/* <Image src={Video} /> */}
+                        
+                        <div onClick={handleClick} className='text-3xl absolute top-1/2 left-1/2 ta z-20 -translate-x-1/2 -translate-y-1/2'>
+                        {
+                            show?<div className='p-4 bg-Yello rounded-full'><FaPlay  className='text-xl'/></div>:<div className='p-4 bg-Yello rounded-full'><FaPause  className='text-xl'/></div>
+                        }
+                        </div>
+                    </div>
+                    <div className='lg:w-5/12 bg-Yello py-85 pl-110 pr-85 relative'>
                         <div className='absolute bottom-12 left-0'><Image src={Design5}/></div>
                         <div className='absolute top-18 left-20'>
                             <Image src={Design} />
@@ -50,9 +67,6 @@ const Testimonial = () => {
                             </div>
                         </Flex>
 
-                    </div>
-                    <div className='w-7/12'>
-                        <Image className='w-full' src={Video}/>
                     </div>
                 </Flex>
             </Container>

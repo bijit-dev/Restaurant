@@ -36,7 +36,7 @@ export default {
 
 
         
-        '19': '19rem',
+        '18': '18rem',
       },
       
       maxWidth: {
@@ -55,7 +55,7 @@ export default {
       },
 
       backgroundImage: {
-        'bannerBg': "url('../src/assets/bannerBg.png')",
+        
         'ContactBg': "url('../src/assets/Contact.jpeg')",
         'FooterBg': "url('../src/assets/Footer.jpeg')",
       }

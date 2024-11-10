@@ -5,12 +5,18 @@ import Button from '../components/Button'
 import Image from '../components/Image'
 import bannerImg from '../assets/bannerImg.png'
 import Vector from '../assets/Vector.png'
+import BannerBg from '../assets/bannerBg.png'
+import Navber from './Navber'
+// import '../App.css'
 
 const Banner = () => {
     return (
-        <section className='bg-gradient-to-r from-r1 from-28% via-r2 via-60% to-r3 to-100% px-7 lg:px-0'>
+        <section className='bg-gradient-to-r from-r1 from-28% via-r2 via-60% to-r3 to-100% px-7 lg:px-0 relative'>
+            <Image className='w-full h-full absolute top-0 left-0 z-0' src={BannerBg} />
+            {/* <Navber/> */}
             <Container className='relative'>
-                <h1 className='lg:w-840 font-Bebas font-bold uppercase text-white text-68f lg:bg-gradient-to-r from-r1/0 to-r1/70 lg:absolute lg:top-19 lg:left-0 lg:z-20'>Taste the authentic Saudi cuisine</h1>
+                <h1 className='lg:w-840 font-Bebas font-bold uppercase text-white text-[28px] lg:text-68f lg:bg-gradient-to-r from-r1/0 to-r1/70 lg:absolute lg:top-18 lg:left-0 lg:z-20 pt-8'>Taste the authentic Saudi cuisine</h1>
+
                 <p className='w-480 font-Roboto font-normal text-white text-2xl pt-522 pb-9'>Among the best Saudi chefs in the world, serving you something beyond flavor. </p>
                 <Button className='mb-259' text='Explore Menu' />
                 

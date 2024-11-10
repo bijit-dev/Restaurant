@@ -16,8 +16,7 @@ const App = () => {
       <FoodItems />
       <Booking />
       <Testimonial />
-      <Footer />
-      
+      <Footer />      
     </>
   )
 }
