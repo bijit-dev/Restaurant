@@ -11,14 +11,16 @@ export default {
         'Raleway': ['Raleway'],
         'Roboto': ['Roboto'],
         'Bebas': ['Bebas Neue'],
-        'Inter': ['Inter'],
+        'Open': ['Open Sans'],
         'Montserrat': ['Montserrat'],
       },
 
       fontSize: {
         '21f': '21.6px',
         '28f': '28.44px',
-        '34f': '34px',
+        '26f': '26px',
+        '30f': '30px',
+        '41f': '41px',
         '68f': '68px',
         '62f': '62px',
       },
@@ -37,16 +39,23 @@ export default {
         '85': '85px',
         '38': '38px',
         
+        '18w': '18px',
         '130w': '130px',
         '105w': '105.66px',
+        '93w': '93px',
         '72w': '72px',
         '69w': '69px',
+        
         '30w': '30px',
+        
       },
 
       lineHeight: {
         '130L': '130px',
+        '62L': '62px',
         '56L': '56px',
+        '48L': '48px',
+        '26L': '26px',
       },
       
       maxWidth: {
