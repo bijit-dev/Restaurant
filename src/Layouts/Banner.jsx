@@ -16,7 +16,7 @@ const Banner = () => {
 
                 <p className='lg:w-559 font-Roboto font-normal text-white text-xl lg:text-2xl lg:pt-522 pt-4 pb-38'>Among the best Saudi chefs in the world, serving you something beyond flavor.</p>
 
-                <Button className='lg:mb-259' text='Explore Menu' />
+                <Button className='lg:mb-259w' text='Explore Menu' />
                 
                 <div className='pt-12 lg:pt-0 lg:absolute lg:top-130w lg:right-0'>
                     <Image className='w-full h-full' src={bannerImg} />
