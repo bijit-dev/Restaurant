@@ -17,16 +17,16 @@ const Testimonial = () => {
         setshow(!show)
     }
     return (
-        <section className='py-120 relative'>
+        <section className='px-30w lg:px-0 py-8 lg:py-120  relative'>
             <div className='hidden lg:block absolute top-40 -left-48'><Image src={Design3}/></div>
             <div className='hidden lg:block absolute bottom-10 left-[73%] -z-20'><Image src={Design4}/></div>
             
             <Container>
                 <Flex className='justify-between items-center pb-14'>
                     <div>
-                        <p className='text-r1 flex items-center gap-1 font-Roboto font-bold text-xl
+                        <p className='text-r1 flex items-center gap-1 font-Roboto font-bold lg:text-xl text-base
                         '><FaSquareFull className='text-xs'/> Crispy, Every Bite Taste</p>
-                        <h1 className='font-Bebas font-bold text-62f text-Black pt-4'>What Some of my Customers Say</h1>
+                        <h1 className='font-Bebas font-bold text-40f lg:text-62f text-Black pt-2 lg:pt-4'>What Some of my Customers Say</h1>
                     </div>
                     <Flex className='gap-x-8 '>
                         <div className='bg-white p-6 rounded-full shadow-xl hover:text-r1'>
@@ -51,12 +51,15 @@ const Testimonial = () => {
                         }
                         </div>
                     </div>
-                    <div className='lg:w-5/12 bg-Yello py-85 pl-110 pr-85 relative'>
+                    <div
+                        // className='w-[386.19px] bg-Yello lg:py-85 lg:pl-110 lg:pr-85 relative'
+                        className='lg:w-5/12 bg-Yello lg:py-85 lg:pl-110 lg:pr-85 relative'
+                    >
                         <div className='absolute bottom-12 left-0'><Image src={Design5}/></div>
                         <div className='absolute top-18 left-20'>
                             <Image src={Design} />
                         </div>
-                        <p className='  font-Roboto font-normal text-xl text-Black text-justify pb-40'>You can't go wrong with Chicken Mandi, I had it twice. The chicken was cooked perfectly, juicy & soft (usually mandi chicken is a bit dry). I would defiantly recommend it.</p>
+                        <p className='font-Roboto font-normal text-lg lg:text-xl leading-8 text-Black pb-40'>You can't go wrong with Chicken Mandi, I had it twice. The chicken was cooked perfectly, juicy & soft (usually mandi chicken is a bit dry). I would defiantly recommend it.</p>
                         <Flex className='justify-between border-b border-Black'>
                             <div>
                                 <h3 className='font-Bebas font-bold text-lg text-Black'>KHALID AL DAWSRY</h3>

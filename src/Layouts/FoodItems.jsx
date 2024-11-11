@@ -13,16 +13,16 @@ import Design2 from '../assets/Design2.png'
 
 const FoodItems = () => {
     return (
-        <section className='relative bg-[#FBF7F2] py-120'>
+        <section className='relative bg-[#FBF7F2] px-30w lg:px-0 py-8 lg:py-120'>
             <div className='hidden lg:block absolute top-60 -left-36'><Image src={Design2}/></div>
             <Container>
                 <Flex className='justify-between items-center pb-14'>
                     <div>
-                        <p className='text-r1 flex items-center gap-1 font-Roboto font-bold text-xl
+                        <p className='text-r1 flex items-center gap-1 font-Roboto font-bold lg:text-xl text-base
                         '><FaSquareFull className='text-xs'/>Crispy, Every Bite Taste</p>
-                        <h1 className='font-Bebas font-bold text-62f text-Black pt-4'>POPULAR FOOD ITEMS</h1>
+                        <h1 className='font-Bebas font-bold text-40f lg:text-62f text-Black pt-2 lg:pt-4'>POPULAR FOOD ITEMS</h1>
                     </div>
-                    <Flex className='gap-x-8 '>
+                    <Flex className='flex justify-center   gap-x-8 '>
                         <div className='bg-white p-6 rounded-full shadow-xl hover:text-r1'>
                         <FaChevronLeft />
                         </div>
