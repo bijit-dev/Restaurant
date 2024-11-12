@@ -19,7 +19,7 @@ const Testimonial = () => {
     return (
         <section className='px-30w lg:px-0 py-8 lg:py-120  relative'>
             <div className='hidden lg:block absolute top-40 -left-48'><Image src={Design3}/></div>
-            <div className='hidden lg:block absolute bottom-10 left-[73%] -z-20'><Image src={Design4}/></div>
+            <div className='hidden lg:block absolute bottom-10 right-0 -z-20'><Image src={Design4}/></div>
             
             <Container>
                 <Flex className='justify-between items-center pb-14'>
