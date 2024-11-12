@@ -9,7 +9,7 @@ const Booking = () => {
     // const [date, setDate] = useState(null);
 
     return (
-        <section className='px-30w lg:px-0 py-8 lg:py-120 bg-ContactBg bg-cover bg-center bg-no-repeat'>
+        <section className='px-30w lg:px-0 py-8 lg:py-120 bg-ContactBg bg-cover  bg-no-repeat'>
             <Container>
                 <div className='lg:w-6/12'>
                     <p className='text-r1 flex items-center gap-1 font-Roboto font-medium lg:text-xl text-base'><FaSquareFull className='text-xs'/>Book Now </p>
