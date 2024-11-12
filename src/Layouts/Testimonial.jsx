@@ -24,9 +24,9 @@ const Testimonial = () => {
             <Container>
                 <Flex className='justify-between items-center pb-14'>
                     <div>
-                        <p className='text-r1 flex items-center gap-1 font-Roboto font-bold lg:text-xl text-base
+                        <p className='text-r1 flex items-center gap-1 font-Roboto font-medium lg:text-xl text-base
                         '><FaSquareFull className='text-xs'/> Crispy, Every Bite Taste</p>
-                        <h1 className='font-Bebas font-bold text-40f lg:text-62f text-Black pt-2 lg:pt-4'>What Some of my Customers Say</h1>
+                        <h1 className='font-Bebas font-medium text-40f lg:text-62f text-Black pt-2 lg:pt-4'>What Some of my Customers Say</h1>
                     </div>
                     <Flex className='flex justify-center gap-x-8 '>
                         <div className='bg-white p-6 rounded-full shadow-xl hover:text-r1'>
@@ -55,14 +55,14 @@ const Testimonial = () => {
                         className='lg:w-5/12 p-6 bg-Yello lg:py-85 lg:pl-110 lg:pr-85 relative'
                     >
                         <div className='absolute -bottom-1 w-6 lg:w-10 lg:bottom-12 left-0'><Image src={Design5} /></div>
-                        <div className=' absolute top-6 lg:top-16 lg:left-20 left-4 font-[CotorisBold] font-normal text-6xl'>“</div>
+                        <div className=' absolute top-6 lg:top-16 lg:left-20 left-4 font-[Cotorismedium] font-normal text-6xl'>“</div>
                         {/* <div className='absolute top-18 left-20'>
                             <Image src={Design} />
                         </div> */}
-                        <p className=' lg:max-w-360w font-Roboto font-normal text-lg lg:text-xl leading-34L text-Black pl-[19px] lg:pl-0 pt-5 lg:pt-0 mb-10 lg:mb-40'>You can't go wrong with Chicken Mandi, I had it twice. The chicken was cooked perfectly, juicy & soft (usually mandi chicken is a bit dry). I would defiantly recommend it.</p>
+                        <p className=' lg:max-w-360w font-Roboto font-normal text-lg lg:text-xl !leading-34L text-Black pl-[19px] lg:pl-0 pt-5 lg:pt-0 mb-10 lg:mb-40'>You can't go wrong with Chicken Mandi, I had it twice. The chicken was cooked perfectly, juicy & soft (usually mandi chicken is a bit dry). I would defiantly recommend it.</p>
                         <Flex className='flex justify-between border-b border-Black'>
                             <div>
-                                <h3 className='font-Bebas font-bold text-lg text-Black'>KHALID AL DAWSRY</h3>
+                                <h3 className='font-Bebas font-medium text-lg text-Black'>KHALID AL DAWSRY</h3>
                                 <p className='font-Roboto font-normal text-sm text-Gray'>Jeddah, Saudi</p>
                             </div>
                             <div className='border-b-4 border-r1'>

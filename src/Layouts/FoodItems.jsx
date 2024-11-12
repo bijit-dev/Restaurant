@@ -18,9 +18,9 @@ const FoodItems = () => {
             <Container>
                 <Flex className='justify-between items-center pb-14'>
                     <div>
-                        <p className='text-r1 flex items-center gap-1 font-Roboto font-bold lg:text-xl text-base
+                        <p className='text-r1 flex items-center gap-1 font-Roboto font-medium lg:text-xl text-base
                         '><FaSquareFull className='text-xs'/>Crispy, Every Bite Taste</p>
-                        <h1 className='font-Bebas font-bold text-40f lg:text-62f text-Black pt-2 lg:pt-4'>POPULAR FOOD ITEMS</h1>
+                        <h1 className='font-Bebas font-medium text-40f lg:text-62f text-Black pt-2 lg:pt-4'>POPULAR FOOD ITEMS</h1>
                     </div>
                     <Flex className='flex justify-center   gap-x-8 '>
                         <div className='bg-white p-6 rounded-full shadow-xl hover:text-r1'>

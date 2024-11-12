@@ -13,7 +13,7 @@ import Design1 from '../assets/Design1.png'
 
 const About = () => {
     return (
-        <section className=' relative lg:py-120 px-30w lg:px-0 py-8 '>
+        <section id='about' className=' relative lg:py-120 px-30w lg:px-0 py-8 '>
             <div className='hidden lg:block absolute top-60 right-0 -z-20'><Image src={Design1}/></div>
             <Container>
                 <Flex className='gap-x-20 pb-12 lg:pb-72w'>
@@ -23,10 +23,10 @@ const About = () => {
                         {/* <div>
                             <Flex className='gap-x-2.5 justify-center items-center bg-white text-Black rounded-3xl p-5 absolute top-7 left-7'>
                                 <div className='p-8 border-8 border-h border-Yello rounded-full'>
-                                    <div className=' font-Open font-bold text-26f '>50 +</div>
+                                    <div className=' font-Open font-medium text-26f '>50 +</div>
                                 </div>
 
-                                <div className='w-93w font-Open font-semibold text-base leading-6'>Market Experiences</div>
+                                <div className='w-93w font-Open font-semimedium text-base leading-6'>Market Experiences</div>
                             </Flex>
                         </div> */}
                     </div>
@@ -38,7 +38,7 @@ const About = () => {
                         </Flex>
 
                         <div className='py-8'>
-                            <h1 className='font-Bebas uppercase font-bold lg:text-62f text-41f leading-48L lg:leading-62L pb-18w'>Exceptional culinary experience and delicious food</h1>
+                            <h1 className='font-Bebas uppercase font-medium lg:text-62f text-41f leading-48L lg:leading-62L pb-18w'>Exceptional culinary experience and delicious food</h1>
                             <p className='font-Roboto font-normal text-base  lg:leading-26L text-Gray'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ornare non sed est cursus. Vel hac convallis ipsum, facilisi odio pellentesque bibendum viverra tempus. Lorem ipsum dolor sit amet consectetur adipiscing elit do eiusmod tempor incididunt ut labore et dolore magna minim veniam nostrud exercitation.</p>
                         </div>
 
@@ -46,7 +46,7 @@ const About = () => {
                             <Button text='ABOUT MORE' />
                             <Flex className='flex gap-x-2 justify-center items-center lg:py-4'>
                                 <Image className='w-5 h-5' src={CallAlt}/>
-                                <p className='font-Roboto font-bold text-sm lg:text-lg text-Black'>+88 3426 739 485</p>
+                                <p className='font-Roboto font-medium text-sm lg:text-lg text-Black'>+88 3426 739 485</p>
                             </Flex>
                         </Flex>
 
@@ -57,21 +57,21 @@ const About = () => {
                     <Flex className='flex lg:w-4/12 items-center gap-x-4'>
                         <div className='p-6 bg-white  rounded-full shadow-xl'><Image src={Package} /></div>
                         <div>
-                            <h2 className='uppercase font-Bebas font-bold text-2xl lg:text-30f text-Black pb-0.5'>fast delivery</h2>
+                            <h2 className='uppercase font-Bebas font-medium text-2xl lg:text-30f text-Black pb-0.5'>fast delivery</h2>
                             <p className='font-Roboto font-normal text-xl text-Black'>Within 30 minutes</p>
                         </div>
                     </Flex>
                     <Flex className='flex lg:w-4/12 items-center gap-x-4 py-9 '>
                         <div className='p-6 bg-white  rounded-full shadow-xl'><Image src={Medal} /></div>
                         <div>
-                            <h2 className='uppercase font-Bebas font-bold text-2xl lg:text-30f text-Black pb-0.5'>absolute dining</h2>
+                            <h2 className='uppercase font-Bebas font-medium text-2xl lg:text-30f text-Black pb-0.5'>absolute dining</h2>
                             <p className='font-Roboto font-normal text-xl text-Black'>Best buffet restaurant</p>
                         </div>
                     </Flex>
                     <Flex className='flex lg:w-4/12 items-center gap-x-4'>
                         <div className='p-6 bg-white  rounded-full shadow-xl'><Image src={Bag} /></div>
                         <div>
-                            <h2 className='uppercase font-Bebas font-bold text-2xl lg:text-30f text-Black pb-0.5'>pickup delivery</h2>
+                            <h2 className='uppercase font-Bebas font-medium text-2xl lg:text-30f text-Black pb-0.5'>pickup delivery</h2>
                             <p className='font-Roboto font-normal text-xl text-Black'>Grab your food order</p>
                         </div>
                     </Flex>
