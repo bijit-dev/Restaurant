@@ -7,3 +7,24 @@
     background-image: url(../src/assets/bannerBg.png);
     background-color: #bf2018;
 }
+
+/* navber anymation */
+li{
+    cursor: pointer;
+    position: relative;
+}
+li::after{
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 0;
+    height: 3px;
+    background: transparent;
+    content: "";
+    transition: .5s;
+    border-radius: 10px;
+}
+li:hover::after{
+    width: 100%;
+    background: white;
+}

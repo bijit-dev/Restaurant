@@ -8,7 +8,7 @@ import { Link } from 'react-scroll'
 
 const Footer = () => {
     return (
-        <section className='bg-FooterBg bg-no-repeat bg-cover brightness-80 lg:py-120 py-30w px-30 lg:px-0'>
+        <section id='footer' className='bg-FooterBg bg-no-repeat bg-cover brightness-80 lg:py-120 py-30w px-30 lg:px-0'>
             <Container>
                 <h1 className='font-Bebas font-medium lg:text-62f text-5xl text-white text-center '>We ready to have you the best dining experiences</h1>
                 <Flex className='flex lg:flex-row flex-col gap-6 pt-12 pb-60w lg:pb-120'>

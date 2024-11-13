@@ -26,7 +26,7 @@ const Navber = () => {
         <div className="py-6 text-center"><Button className='!py-2.5' text='Book a table'/></div>
         </div>
     return (
-        <section className='Navbg sticky top-0 z-50 bg-transparent px-7 lg:px-0' >
+        <section id='hero' className='Navbg sticky top-0 z-50 bg-transparent px-7 lg:px-0' >
             {show && navlist}
             <Container className='relative'>
                 <Flex className='items-center'>

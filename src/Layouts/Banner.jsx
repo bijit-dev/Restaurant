@@ -8,7 +8,7 @@ import BannerBg from '../assets/bannerBg.png'
 
 const Banner = () => {
     return (
-        <section className='bg-gradient-to-r from-r1 from-28% via-r2 via-60% to-r3 to-100% px-30w lg:px-0 py-8 lg:py-0 relative'>
+        <section id='banner' className='bg-gradient-to-r from-r1 from-28% via-r2 via-60% to-r3 to-100% px-30w lg:px-0 py-8 lg:py-0 relative'>
             <Image className='w-full h-full absolute top-0 left-0 z-0' src={BannerBg} />
             
             <Container className='relative'>
