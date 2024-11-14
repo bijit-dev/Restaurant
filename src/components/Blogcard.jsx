@@ -5,7 +5,7 @@ import { FaPause, FaPlay } from 'react-icons/fa'
 import Design5 from '../assets/Design5.png'
 import Men from '../assets/Men.png'
 
-const TestimonialCard = () => {
+const Blogcard = () => {
     let [show,setshow]=useState(true)
 
     let handleClick=()=>{
@@ -53,4 +53,4 @@ const TestimonialCard = () => {
     )
 }
 
-export default TestimonialCard
+export default Blogcard

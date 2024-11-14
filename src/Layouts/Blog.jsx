@@ -1,19 +1,19 @@
-import React, { useState } from 'react'
+import React from 'react'
 import Container from '../components/Container'
 import Flex from '../components/Flex'
 import Image from '../components/Image'
-import { FaPlay, FaSquareFull } from 'react-icons/fa'
-import { FaChevronLeft, FaChevronRight, FaPause } from "react-icons/fa6";
-import Men from '../assets/Men.png'
-import Design from '../assets/Design.png'
+import { FaPlay, FaPause, FaSquareFull } from 'react-icons/fa'
+import { FaChevronLeft, FaChevronRight } from "react-icons/fa6";
+// import Men from '../assets/Men.png'
+// import Design from '../assets/Design.png'
 import Design3 from '../assets/Design3.png'
 import Design4 from '../assets/Design4.png'
-import TestimonialCard from '../components/TestimonialCard'
+import Blogcard from '../components/Blogcard'
 
-const Testimonial = () => {
+const Blog = () => {
     
     return (
-        <section id='testimonial' className='px-30w lg:px-0 py-8 lg:py-120  relative'>
+        <section id='blog' className='px-30w lg:px-0 py-8 lg:py-120  relative'>
             <div className='hidden lg:block absolute top-40 -left-48'><Image src={Design3}/></div>
             <div className='hidden lg:block absolute bottom-10 right-0 -z-20'><Image src={Design4}/></div>
             
@@ -26,7 +26,7 @@ const Testimonial = () => {
 
                 {/* contain add  */}
                 <div data-slick='{"slidesToShow": 1, "slidesToScroll": 1}'>
-                    <TestimonialCard />
+                    <Blogcard />
                 </div>
                 
                 {/* button add */}
@@ -44,4 +44,4 @@ const Testimonial = () => {
     )
 }
 
-export default Testimonial
+export default Blog

@@ -3,9 +3,9 @@ import Navber from './Layouts/Navber'
 import Banner from './Layouts/Banner'
 import About from './Layouts/About'
 import FoodItems from './Layouts/FoodItems'
-import Booking from './Layouts/Booking'
-import Testimonial from './Layouts/Testimonial'
+import Contact from './Layouts/Contact'
 import Footer from './Layouts/Footer'
+import Blog from './Layouts/Blog'
 
 const App = () => {
   return (
@@ -14,8 +14,8 @@ const App = () => {
       <Banner />
       <About />
       <FoodItems />
-      <Booking />
-      <Testimonial />
+      <Contact />
+      <Blog />
       <Footer />      
     </>
   )
