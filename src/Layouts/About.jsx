@@ -4,12 +4,13 @@ import Flex from '../components/Flex'
 import Button from '../components/Button'
 import Image from '../components/Image'
 import AboutImg from '../assets/AboutImg.png'
-import MarketPlace from '../assets/MarketPlace.png'
 import CallAlt from '../assets/call-alt.png'
 import Package from '../assets/package.png'
 import Medal from '../assets/medal.png'
 import Bag from '../assets/bag.png'
 import Design1 from '../assets/Design1.png'
+import Border from '../assets/border.png'
+import Border2 from '../assets/border2.png'
 
 const About = () => {
     
@@ -21,16 +22,19 @@ const About = () => {
                 <Flex className='gap-x-20 pb-12 lg:pb-72w'>
                     <div className='lg:w-6/12 relative'>
                         <Image className='w-full' src={AboutImg} />
-                        <Image className='w-[129px] h-[74px] lg:w-[242px] lg:h-[136px] absolute top-7 left-7' src={MarketPlace} />
-                        {/* <div>
+                        {/* <Image className='w-[129px] h-[74px] lg:w-[242px] lg:h-[136px] absolute top-7 left-7' src={MarketPlace} /> */}
+
+                        <div>
                             <Flex className='gap-x-2.5 justify-center items-center bg-white text-Black rounded-3xl p-5 absolute top-7 left-7'>
-                                <div className='p-8 border-8 border-h border-Yello rounded-full'>
-                                    <div className=' font-Open font-medium text-26f '>50 +</div>
+                                <div className='p-8 rounded-full relative'>
+                                    <Image className='absolute top-0 left-0 w-full h-full ' src={Border}/>
+                                    <Image className='absolute top-3 left-2' src={Border2}/>
+                                    <div className=' font-Open font-bold text-26f '>50 +</div>
                                 </div>
 
-                                <div className='w-93w font-Open font-semimedium text-base leading-6'>Market Experiences</div>
+                                <div className='w-93w font-Open font-semibold text-base leading-6'>Market Experiences</div>
                             </Flex>
-                        </div> */}
+                        </div>
                     </div>
                     <div className='lg:w-6/12 pt-8 lg:pt-0'>
                         <Flex className='flex gap-x-4 border-b border-r1'>

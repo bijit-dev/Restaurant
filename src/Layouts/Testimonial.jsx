@@ -25,16 +25,19 @@ const Testimonial = () => {
                 </div>
 
                 {/* contain add  */}
-                <TestimonialCard />
+                <div data-slick='{"slidesToShow": 1, "slidesToScroll": 1}'>
+                    <TestimonialCard />
+                </div>
                 
                 {/* button add */}
                 <Flex className='lg:absolute top-0 right-0 flex justify-center gap-x-8 pt-6'>
-                        <div className='cursor-pointer bg-white p-4 lg:p-6 rounded-full shadow-xl hover:text-r1'>
+                    <div className='cursor-pointer bg-white p-4 lg:p-6 rounded-full shadow-xl hover:text-r1'>
                         <FaChevronLeft />
-                        </div>
-                        <div className='cursor-pointer bg-white p-4 lg:p-6 rounded-full shadow-xl hover:text-r1'>
-                            <FaChevronRight />
-                        </div>
+                    </div>
+                    
+                    <div  className='cursor-pointer bg-white p-4 lg:p-6 rounded-full shadow-xl hover:text-r1'>
+                        <FaChevronRight />
+                    </div>
                 </Flex>
             </Container>
         </section>
