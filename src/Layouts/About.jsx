@@ -16,7 +16,7 @@ const About = () => {
     
     
     return (
-        <section id='about' className=' relative lg:py-120 px-30w lg:px-0 py-8 '>
+        <section id='about' className='bg-white relative lg:py-120 px-30w lg:px-0 py-8 '>
             <div className='hidden lg:block absolute top-60 right-0 -z-20'><Image src={Design1}/></div>
             <Container>
                 <Flex className='gap-x-20 pb-12 lg:pb-72w'>
@@ -38,15 +38,27 @@ const About = () => {
                     </div>
                     <div className='lg:w-6/12 pt-8 lg:pt-0'>
                         <Flex className='flex gap-x-4 border-b border-r1'>
-                            <h4 className='font-Roboto font-medium text-sm py-1.5 px-4 bg-r1  text-white cursor-pointer'>About</h4>
-                            <h4 className='font-Roboto font-medium text-sm text-Gray py-1.5 px-4 hover:bg-r1 hover:text-white cursor-pointer'>Experience</h4>
-                            <h4 className='font-Roboto font-medium text-sm text-Gray py-1.5 px-4 hover:bg-r1 hover:text-white cursor-pointer'>Contact</h4>
+                            <button id="pills-about-tab" data-bs-toggle="pill" data-bs-target="#pills-about" type="button" role="tab" aria-controls="pills-about" aria-selected="true"  className='font-Roboto font-medium text-sm py-1.5 px-4 bg-r1  text-white cursor-pointer'>About</button>
+                            <button id="pills-experience-tab" data-bs-toggle="pill" data-bs-target="#pills-experience" type="button" role="tab" aria-controls="pills-experience" aria-selected="false"  className='font-Roboto font-medium text-sm text-Gray py-1.5 px-4 hover:bg-r1 hover:text-white cursor-pointer'>Experience</button>
+                            <button id="pills-contact-tab" data-bs-toggle="pill" data-bs-target="#pills-contact" type="button" role="tab" aria-controls="pills-contact" aria-selected="false"  className='font-Roboto font-medium text-sm text-Gray py-1.5 px-4 hover:bg-r1 hover:text-white cursor-pointer'>Contact</button>
                         </Flex>
                         
 
-                        <div className='py-8'>
+                        <div  id="pills-experience"><div id="pills-about" role="tabpanel" aria-labelledby="pills-about-tab" tabIndex="0" className='py-8'>
                             <h1 className='font-Bebas uppercase font-medium lg:text-62f text-41f leading-48L lg:leading-62L pb-18w'>Exceptional culinary experience and delicious food</h1>
                             <p className='font-Roboto font-normal text-base  lg:leading-26L text-Gray'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ornare non sed est cursus. Vel hac convallis ipsum, facilisi odio pellentesque bibendum viverra tempus. Lorem ipsum dolor sit amet consectetur adipiscing elit do eiusmod tempor incididunt ut labore et dolore magna minim veniam nostrud exercitation.</p>
+                        </div></div>
+
+                        <div  id="pills-tabContent"><div id="pills-experience"
+                            role="tabpanel" aria-labelledby="pills-experience-tab" tabIndex="0" className='py-8'>
+                            <h1 className='font-Bebas uppercase font-medium lg:text-62f text-41f leading-48L lg:leading-62L pb-18w'> and delicious food</h1>
+                            <p className='font-Roboto font-normal text-base  lg:leading-26L text-Gray'>Lorem ipsum bendum viverra tempus. Lorem ipsum dolor sit amet consectetur adipiscing elit do eiusmod tempor incididunt ut labore et dolore magna minim veniam nostrud exercitation.</p>
+                        </div></div>
+
+                        <div id="pills-contact"
+                            role="tabpanel" aria-labelledby="pills-contact-tab" tabIndex="0" className='py-8'>
+                            <h1 className='font-Bebas uppercase font-medium lg:text-62f text-41f leading-48L lg:leading-62L pb-18w'>Exceptional culius food</h1>
+                            <p className='font-Roboto font-normal text-base  lg:leading-26L text-Gray'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ornare non sed etation.</p>
                         </div>
                         
                         <Flex className='flex gap-x-4 lg:gap-x-8 items-center'>

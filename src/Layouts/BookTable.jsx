@@ -4,14 +4,14 @@ import Flex from '../components/Flex'
 import Button from '../components/Button'
 import { FaSquareFull } from 'react-icons/fa'
 
-const Contact = () => {
+const BookTable = () => {
     const PostFormData = () => {
         event.preventDefault();
         alert('Booking done!');
     }
 
     return (
-        <section id='contact' className='px-30w lg:px-0 py-8 lg:py-120 bg-ContactBg bg-cover  bg-no-repeat'>
+        <section id='BookTable' className='px-30w lg:px-0 py-8 lg:py-120 bg-transparent'>
             <Container>
                 <div className='lg:w-6/12'>
                     <p className='text-r1 flex items-center gap-1 font-Roboto font-medium lg:text-xl text-base'><FaSquareFull className='text-xs'/>Book Now </p>
@@ -36,4 +36,4 @@ const Contact = () => {
     )
 }
 
-export default Contact
+export default BookTable

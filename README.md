@@ -1,25 +1,51 @@
-# Restaurant Landing Page Template
+# My Restaurant 🍽️
+Welcome to My Restaurant, a modern and responsive restaurant website built with React and Vite.
+This project presents a sophisticated user interface designed to captivate prospective customers, featuring seamless navigation, an organized menu section, and visually appealing design elements.
 
-A modern, customizable Landing Page template built with React + Vite + Tailwind CSS.
+# Project Overview:
+This website is designed for restaurants and food businesses to showcase their services, food menu, and promotions.
+It is built using React.js, styled with TailwindCSS and Bootstrap, and enhanced with Swiper for smooth carousels and React Router for navigation.
 
-## [Live link](https://restaurant-text.vercel.app/)
-
-## 🚀 Quick Start
+#### [Live View](https://restaurant-text.vercel.app/): https://restaurant-text.vercel.app/
 
 
-First, run the development server:
 
-1. Clone this repository
+### Technologies Used:
+React: A JavaScript library for building user interfaces.
+Vite: A fast front-end build tool for modern web prijects
+BootStrap & React Bootstrap: For responsive design and components.
+TailwindCSS & DaisyUI: For utility-first styling.
+Swiper: For creating touch sliders and carousels.
+
+### Project Structure
 ```bash
-git clone https://github.com/bijit-dev/Restaurant.git
+my-restaurant/
+|--public/
+|--src/
+|  |--assets/
+|  |--components/
+|  |--Layout/
+|  |--Pages/
+|--package.json
+|__README.md
+
 ```
 
-2. Install dependencies
+## Installation and setup
+
+1. #### Clone the Repository
+```bash
+git clone https://github.com/bijit-dev/Restaurant.git
+cd my-restaurant
+```
+
+2. #### Installing depenences
 ```bash
 npm install
 ```
 
-3. Start the development server
+3. #### Start The Deployment Server
 ```bash
 npm run dev
+
 ```

@@ -10,10 +10,10 @@ import Design3 from '../assets/Design3.png'
 import Design4 from '../assets/Design4.png'
 import Blogcard from '../components/Blogcard'
 
-const Blog = () => {
+const CustomersSay = () => {
     
     return (
-        <section id='blog' className='px-30w lg:px-0 py-8 lg:py-120  relative'>
+        <section id='CustomersSay' className='bg-white px-30w lg:px-0 py-8 lg:py-120  relative'>
             <div className='hidden lg:block absolute top-40 -left-48'><Image src={Design3}/></div>
             <div className='hidden lg:block absolute bottom-10 right-0 -z-20'><Image src={Design4}/></div>
             
@@ -44,4 +44,4 @@ const Blog = () => {
     )
 }
 
-export default Blog
+export default CustomersSay
