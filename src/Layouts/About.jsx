@@ -49,7 +49,7 @@ const About = () => {
                             <p className='font-Roboto font-normal text-base  lg:leading-26L text-Gray'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ornare non sed est cursus. Vel hac convallis ipsum, facilisi odio pellentesque bibendum viverra tempus. Lorem ipsum dolor sit amet consectetur adipiscing elit do eiusmod tempor incididunt ut labore et dolore magna minim veniam nostrud exercitation.</p>
                         </div></div>
 
-                        <div  id="pills-tabContent"><div id="pills-experience"
+                        {/* <div  id="pills-tabContent"><div id="pills-experience"
                             role="tabpanel" aria-labelledby="pills-experience-tab" tabIndex="0" className='py-8'>
                             <h1 className='font-Bebas uppercase font-medium lg:text-62f text-41f leading-48L lg:leading-62L pb-18w'> and delicious food</h1>
                             <p className='font-Roboto font-normal text-base  lg:leading-26L text-Gray'>Lorem ipsum bendum viverra tempus. Lorem ipsum dolor sit amet consectetur adipiscing elit do eiusmod tempor incididunt ut labore et dolore magna minim veniam nostrud exercitation.</p>
@@ -59,7 +59,7 @@ const About = () => {
                             role="tabpanel" aria-labelledby="pills-contact-tab" tabIndex="0" className='py-8'>
                             <h1 className='font-Bebas uppercase font-medium lg:text-62f text-41f leading-48L lg:leading-62L pb-18w'>Exceptional culius food</h1>
                             <p className='font-Roboto font-normal text-base  lg:leading-26L text-Gray'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ornare non sed etation.</p>
-                        </div>
+                        </div> */}
                         
                         <Flex className='flex gap-x-4 lg:gap-x-8 items-center'>
                             <Button text='ABOUT MORE' />
