@@ -13,8 +13,8 @@ import Pizza from '../assets/Pizza.png'
 import FrenchFries from '../assets/FrenchFries.png'
 import Fried from '../assets/Fried.png'
 import Design2 from '../assets/Design2.png'
-import PrevArrow from '../components/PrevArrow'
-import NextArrow from '../components/NextArrow'
+// import PrevArrow from '../components/PrevArrow'
+// import NextArrow from '../components/NextArrow'
 
 const FoodItems = () => {
     const settings = {

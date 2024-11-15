@@ -39,9 +39,9 @@ const About = () => {
 
                     <div className='lg:w-6/12 pt-8 lg:pt-0'>
                         <Flex className='flex gap-x-4 border-b border-r1'>
-                            <button className='font-Roboto font-medium text-sm py-1.5 px-4 bg-r1  text-white cursor-pointer'>About</button>
-                            <button className='font-Roboto font-medium text-sm text-Gray py-1.5 px-4 hover:bg-r1 hover:text-white cursor-pointer'>Experience</button>
-                            <button className='font-Roboto font-medium text-sm text-Gray py-1.5 px-4 hover:bg-r1 hover:text-white cursor-pointer'>Contact</button>
+                            <h1 className='font-Roboto font-medium text-sm py-1.5 px-4 bg-r1  text-white cursor-pointer'>About</h1>
+                            <h1 className='font-Roboto font-medium text-sm text-Gray py-1.5 px-4 hover:bg-r1 hover:text-white cursor-pointer'>Experience</h1>
+                            <h1 className='font-Roboto font-medium text-sm text-Gray py-1.5 px-4 hover:bg-r1 hover:text-white cursor-pointer'>Contact</h1>
                         </Flex>
                         
 
