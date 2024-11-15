@@ -17,7 +17,7 @@ const About = () => {
     
     return (
         <section id='about' className='bg-white relative lg:py-120 px-30w lg:px-0 py-8 '>
-            <div className='hidden lg:block absolute top-60 right-0 -z-20'><Image src={Design1}/></div>
+            <div className='hidden lg:block absolute top-60 right-0 '><Image src={Design1}/></div>
             <Container>
                 <Flex className='gap-x-20 pb-12 lg:pb-72w'>
                     <div className='lg:w-6/12 relative'>

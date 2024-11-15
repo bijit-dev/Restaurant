@@ -4,7 +4,7 @@ This project presents a sophisticated user interface designed to captivate prosp
 
 # Project Overview:
 This website is designed for restaurants and food businesses to showcase their services, food menu, and promotions.
-It is built using React.js, styled with TailwindCSS and Bootstrap, and enhanced with Swiper for smooth carousels and React Router for navigation.
+It is built using React.js, styled with TailwindCSS  and enhanced with Swiper for react-slick carousels.
 
 #### [Live View](https://restaurant-text.vercel.app/): https://restaurant-text.vercel.app/
 
