@@ -14,7 +14,7 @@ import FrenchFries from '../assets/FrenchFries.png'
 import Fried from '../assets/Fried.png'
 import Design2 from '../assets/Design2.png'
 import PrevArrow from '../components/PrevArrow'
-import NextArrow from '../components/nextArrow'
+import NextArrow from '../components/NextArrow'
 
 const FoodItems = () => {
     const settings = {
@@ -24,8 +24,8 @@ const FoodItems = () => {
         slidesToShow: 4,
         slidesToScroll: 1,
         initialSlide: 0,
-        prevArrow: <PrevArrow/>,
-        nextArrow: <NextArrow />,
+        // prevArrow: <PrevArrow/>,
+        // nextArrow: <NextArrow />,
         autoplay: true,
         autoplaySpeed: 4000,
         pauseOnHover: true,

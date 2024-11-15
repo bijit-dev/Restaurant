@@ -10,8 +10,8 @@ import { FaChevronLeft, FaChevronRight } from "react-icons/fa6";
 import Design3 from '../assets/Design3.png'
 import Design4 from '../assets/Design4.png'
 import Blogcard from '../components/Blogcard'
-import PrevArrow from '../components/PrevArrow'
-import NextArrow from '../components/nextArrow'
+// import PrevArrow from '../components/PrevArrow'
+// import NextArrow from '../components/nextArrow'
 
 
 const CustomersSay = () => {
