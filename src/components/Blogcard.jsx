@@ -4,9 +4,10 @@ import Image from './Image'
 import { FaPause, FaPlay } from 'react-icons/fa'
 import Design5 from '../assets/Design5.png'
 import Men from '../assets/Men.png'
+import Food from '../assets/Food.mp4'
 
 const Blogcard = () => {
-    let [show,setshow]=useState(true)
+    let [show,setshow]=useState(false)
 
     let handleClick=()=>{
         setshow(!show)
@@ -15,16 +16,14 @@ const Blogcard = () => {
     return (
         <>
             <Flex className='lg:flex-row-reverse'>
-                    <div className='lg:w-7/12 h-60 lg:h-auto relative'>
-                        {/* <video width="100%" height="120%" autoplay controls src={FoodVideo}></video> */}
-                        {/* <video src="https://youtu.be/kRCH8kD1GD0?si=9SJIb5UxrzLvKdWD"></video> */}
-
-                        <iframe className='w-full h-full' src="https://www.youtube.com/embed/kRCH8kD1GD0?si=kXY4wVXDWDj2Cy_I&amp;start=4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-                        {/* <Image src={Video} /> */}
+                    <div onClick={handleClick} className='lg:w-7/12 h-60 bg-black lg:h-auto relative'>
+                    <video className='w-full h-full' autoplay controls src={Food}></video>
+                    
                         
-                        <div onClick={handleClick} className='cursor-pointer text-3xl absolute top-1/2 left-1/2 ta z-20 -translate-x-1/2 -translate-y-1/2'>
+                        
+                        <div onClick={handleClick} className='cursor-pointer text-3xl absolute top-1/2 left-1/2 ta z-20 -translate-x-1/2 -translate-y-1/2 '>
                         {
-                            show?<div className='p-4 bg-Yello rounded-full'><FaPlay  className='text-xl'/></div>:<div className='p-4 bg-Yello rounded-full'><FaPause  className='text-xl'/></div>
+                            show?<div className='p-4 bg-Yello rounded-full opacity-0 delay-100 after:opacity-80 '><FaPause  className='text-xl'/></div>:<div className='p-4 bg-Yello rounded-full'><FaPlay  className='text-xl' /></div>
                         }
                         </div>
                     </div>
