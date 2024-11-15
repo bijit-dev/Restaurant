@@ -1,17 +1,31 @@
 import React from 'react'
+import Slider from "react-slick";
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
 import Container from '../components/Container'
 import Flex from '../components/Flex'
 import Image from '../components/Image'
 import { FaPlay, FaPause, FaSquareFull } from 'react-icons/fa'
 import { FaChevronLeft, FaChevronRight } from "react-icons/fa6";
-// import Men from '../assets/Men.png'
-// import Design from '../assets/Design.png'
 import Design3 from '../assets/Design3.png'
 import Design4 from '../assets/Design4.png'
 import Blogcard from '../components/Blogcard'
+import PrevArrow from '../components/PrevArrow'
+import NextArrow from '../components/nextArrow'
+
 
 const CustomersSay = () => {
-    
+    const settings = {
+        dots: false,
+        infinite: true,
+        speed: 2000,
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        autoplay: true,
+        autoplaySpeed: 4000,
+        pauseOnHover: true,
+        
+    };
     return (
         <section id='CustomersSay' className='bg-white px-30w lg:px-0 py-8 lg:py-120  relative'>
             <div className='hidden lg:block absolute top-40 -left-48'><Image src={Design3}/></div>
@@ -25,10 +39,12 @@ const CustomersSay = () => {
                 </div>
 
                 {/* contain add  */}
-                <div data-slick='{"slidesToShow": 1, "slidesToScroll": 1}'>
+                <Slider {...settings}>
                     <Blogcard />
-                </div>
-                
+                    <Blogcard />
+
+                </Slider>
+
                 {/* button add */}
                 <Flex className='lg:absolute top-0 right-0 flex justify-center gap-x-8 pt-6'>
                     <div className='cursor-pointer bg-white p-4 lg:p-6 rounded-full shadow-xl hover:text-r1'>

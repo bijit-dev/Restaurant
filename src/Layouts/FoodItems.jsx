@@ -1,5 +1,7 @@
 import React from 'react'
-import Marquee from "react-fast-marquee";
+import Slider from "react-slick";
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
 import Container from '../components/Container'
 import Flex from '../components/Flex'
 import Foodcard from '../components/Foodcard'
@@ -11,8 +13,51 @@ import Pizza from '../assets/Pizza.png'
 import FrenchFries from '../assets/FrenchFries.png'
 import Fried from '../assets/Fried.png'
 import Design2 from '../assets/Design2.png'
+import PrevArrow from '../components/PrevArrow'
+import NextArrow from '../components/nextArrow'
 
 const FoodItems = () => {
+    const settings = {
+        dots: false,
+        infinite: true,
+        speed: 2000,
+        slidesToShow: 4,
+        slidesToScroll: 1,
+        initialSlide: 0,
+        prevArrow: <PrevArrow/>,
+        nextArrow: <NextArrow />,
+        autoplay: true,
+        autoplaySpeed: 4000,
+        pauseOnHover: true,
+        
+        responsive: [
+            {
+                breakpoint: 1024,
+                settings: {
+                slidesToShow: 3,
+                }
+            },
+            {
+                breakpoint: 900,
+                settings: {
+                slidesToShow: 2,
+                }
+            },
+            {
+                breakpoint: 720,
+                settings: {
+                slidesToShow: 1,
+                slidesToScroll: 1
+                }
+            },
+            {
+                breakpoint: 380,
+                settings: {
+                slidesToShow: 1,
+                }
+            }
+        ]
+    };
     return (
         <section id='fooditems' className='relative bg-[#FBF7F2] px-30w lg:px-0 py-8 lg:py-120'>
             <div className='hidden lg:block absolute top-60 -left-36'><Image src={Design2}/></div>
@@ -24,13 +69,14 @@ const FoodItems = () => {
                 </div>
 
 
-                <Marquee play='false' pauseOnHover="true" speed="70" className='grid '>
+                <Slider {...settings} >
+
                     <Foodcard src={Burger} title='vegetables burger' text='Barbecue Italian cuisine pizza'/>
                     <Foodcard src={Pizza} title='Spacial Pizza' text='Barbecue Italian cuisine pizza'/>
                     <Foodcard src={FrenchFries} title='Spacial French fries' text='Barbecue Italian cuisine'/>
                     <Foodcard src={Fried} title='Cuisine Chicken' text='Japanese Cuisine Chicken'/>
-                    
-                </Marquee>
+            
+                </Slider>
 
                 {/* button add */}
                 <Flex className='lg:absolute top-0 right-0 flex justify-center gap-x-8 pt-6'>
