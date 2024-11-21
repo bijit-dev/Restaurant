@@ -14,7 +14,21 @@ const Navber = () => {
     let handleClick=()=>{
         setshow(!show)
     }
-    let navlist = <div className='Navbg bg-gradient-to-r from-r1 from-28% via-r2 via-60% to-r3 to-100% w-full absolute top-20 left-0 z-10'>
+
+    // navber scroll function 
+    
+    window.onscroll = function() {scrollFunction()};
+
+    function scrollFunction() {
+    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+        document.getElementById("navbar").style.backgroundColor = "#BD1F17";
+    } else {
+        document.getElementById("navbar").style.backgroundColor = "";
+    }
+    }
+
+
+    let navlist = <div className='  bg-gradient-to-r from-r1 from-28% via-r2 via-60% to-r3 to-100% w-full absolute top-20 left-0 z-10'>
         <ul className='text-center text-lg text-white font-medium font-pop p-2'>
             <li className='p-2'>Home</li>
             <li className='p-2'>About</li>
@@ -26,7 +40,7 @@ const Navber = () => {
         <div className="py-6 text-center"><Button className='!py-2.5' text='Book a table'/></div>
         </div>
     return (
-        <section id='hero' className='Navbg sticky top-0 z-50 bg-transparent px-7 lg:px-0' >
+        <section id='navbar' className=' fixed w-full block top: 0; z-50 bg-transparent px-7 lg:px-0 ' >
             {show && navlist}
             <Container className='relative'>
                 <Flex className='items-center'>

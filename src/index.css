@@ -3,11 +3,6 @@
 @tailwind components;
 @tailwind utilities;
 
-.Navbg{
-    background-image: url(../src/assets/bannerBg.png);
-    background-color: #bf2018;
-}
-
 /* navber animation */
 li{
     cursor: pointer;

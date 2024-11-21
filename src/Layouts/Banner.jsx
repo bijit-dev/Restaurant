@@ -8,11 +8,11 @@ import BannerBg from '../assets/bannerBg.png'
 
 const Banner = () => {
     return (
-        <section id='banner' className='bg-gradient-to-r from-r1 from-28% via-r2 via-60% to-r3 to-100% px-30w lg:px-0 py-8 lg:py-0 relative'>
+        <section id='banner' className='bg-gradient-to-r from-r1 from-28% via-r2 via-60% to-r3 to-100% px-30w lg:px-0 py-8 lg:py-0 lg:pt-24 relative'>
             <Image className='w-full h-full absolute top-0 left-0 z-0' src={BannerBg} />
             
             <Container className='relative'>
-                <h1 className='lg:w-830 font-Bebas font-medium uppercase text-white text-5xl leading-56L lg:text-[120px] lg:leading-130L lg:bg-gradient-to-r from-r1/0 to-r1/70 lg:absolute lg:top-254 lg:left-0 lg:z-20'>Taste the authentic Saudi cuisine</h1>
+                <h1 className='lg:w-830 font-Bebas font-medium uppercase text-white text-5xl leading-56L pt-16 lg:text-[120px] lg:leading-130L lg:bg-gradient-to-r from-r1/0 to-r1/70 lg:absolute lg:top-254 lg:left-0 lg:z-20'>Taste the authentic Saudi cuisine</h1>
 
                 <p className='lg:w-559 font-Roboto font-normal text-white text-xl lg:text-2xl lg:pt-522 pt-4 pb-38'>Among the best Saudi chefs in the world, serving you something beyond flavor.</p>
 
